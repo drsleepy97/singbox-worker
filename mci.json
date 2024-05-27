@@ -100,7 +100,7 @@
       "users": []
     }
   ],
-/https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/ outnound/https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
+/hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/ outnound/hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
   "outbounds": [
     {
       "tag": "proxy",
@@ -108,9 +108,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "SV1", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/1
-        "SV2", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/2
-        "SV3"  /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/3
+        "SV1", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/1
+        "SV2", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/2
+        "SV3"  /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/3
 
       ]
     },
@@ -118,9 +118,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "SV1", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/ 1
-        "SV2", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/ 2
-        "SV3"  /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/ 3
+        "SV1", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/ 1
+        "SV2", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/ 2
+        "SV3"  /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/ 3
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "1m",
@@ -139,34 +139,34 @@
       "tag": "block"
     },
     {
-      "tag": "SV1", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/first node
+      "tag": "SV1", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/first node
       "type": "vless",
-      "server": "104.27.207.92", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
+      "server": "104.27.207.92", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
       "server_port": 8880,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "   " /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
+          "Host": "   " /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
       }
     },
     {
-      "tag": "SV2", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/secondd node
+      "tag": "SV2", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/secondd node
       "type": "vless",
-      "server": "104.16.142.237", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/优选ip或 域名
+      "server": "104.16.142.237", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/优选ip或 域名
       "server_port": 8880,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/修改uuid
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/修改uuid
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": " " /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
+          "Host": " " /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
@@ -174,7 +174,7 @@
     },
 
     {
-      "tag": "SV3", /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/third node
+      "tag": "SV3", /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/third node
       "type": "vless",
       "server": "104.26.7.89", 
       "server_port": 8880,
@@ -184,7 +184,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "  " /https://hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
+          "Host": "  " /hello-world-red-unit-486f.sinaazhdariniaapple.workers.dev/
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2048
